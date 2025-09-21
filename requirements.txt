@@ -1,0 +1,24 @@
+# FastAPI and web server dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Google Generative AI
+google-generativeai==0.3.2
+
+# LangChain dependencies for text processing and embeddings
+langchain==0.1.0
+langchain-text-splitters==0.0.1
+langchain-google-genai==0.0.6
+
+# Vector database
+chromadb==0.4.18
+
+# Environment variables
+python-dotenv==1.0.0
+
+# Pydantic for data validation (included with FastAPI but explicit for clarity)
+pydantic==2.5.0
+
+# Additional dependencies that might be needed
+httpx==0.25.2
+starlette==0.27.0
